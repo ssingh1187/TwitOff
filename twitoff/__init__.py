@@ -2,4 +2,4 @@
 
 from .app import create_app
 
-APP = create_app #capitalized since its a global variable.
+APP = create_app() # capitalized since its a global variable.
